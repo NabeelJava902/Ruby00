@@ -95,7 +95,7 @@ async def dm(ctx, member: discord.Member = None, message=None, b=None):
     await clear(ctx)
 
 delay = 1800  # seconds
-discordWebhook = 'https://discord.com/api/webhooks/851198124294144031/BkEOdg1UGxIn65nqAtinTjreRXt0f3XtV0kpyGReTrh4hAar0U-GwnL2kPMbQMeoztfV'
+discordWebhook = 'insert webhook'
 
 def getPrice(currency):
     priceUrl = 'https://api.coinbase.com/v2/prices/{}-USD/spot'.format(currency)
